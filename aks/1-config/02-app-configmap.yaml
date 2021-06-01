@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-configmap
+  namespace: infracloud
+data:
+  TZ: "America/Sao_Paulo"
